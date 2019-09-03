@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        
+        /*Pseudo clases:*/
+
+            p:first-child {
+                color: red;
+            }
+            p:last-child{
+                color: brown;
+            }
+            p:nth-child(2n){
+                color: blue;
+            }
+
+            p:nth-child(2n+1){
+                color: lightblue;
+            }
+
+        /*Pseudo elementos:*/
+
+            p::first-letter {
+                color: chartreuse;
+                font-size: 40px;
+            }
+
+
+            </style>
+</head>
+<body>
+    <p>Juan</p>
+    <p>Pedro</p>
+    <p>Matias</p>
+    <p>Camila</p>
+    <p>Laura</p>
+    <p>Carolina</p>
+</body>
+</html>
